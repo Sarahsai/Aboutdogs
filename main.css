@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('thebone.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  color: #1A1A1A;
+  margin-bottom: 30px;
+  font-family: 'Fontdiner Swanky', cursive;
+}
+
+h3{
+  background-color: #87CEFA;
+   padding: 10px;
+   border-radius: 5px;
+   color: black;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+background-color: #87CEFA;
+border-radius: 10px;
+}
+
+.profile img {
+  width: 475px;
+  border-radius: 5%;
+  margin-bottom: 20px;
+  animation: zoomIn 1s ease-out;
+}
+
+.profile p {
+  font-size: 18px;
+  color: #black;
+  line-height: 1.5;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icons a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #1A1A1A;
+  color: #black;
+  border-radius: 50%;
+}
